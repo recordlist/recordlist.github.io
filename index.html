@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Records For Sale</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/all.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Records For Sale</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="my-2 my-lg-0">
+          <input type="search" id="container-search" value="" class="form-control" placeholder="Search...">
+        </div>
+        <ul class="navbar-nav ml-auto" style="margin-right: 50px;">
+          <li class="nav-item">
+            <b><a class="nav-link" href="#House">HOUSE</a></b>
+          </li>
+          <li class="nav-item">
+            <b><a class="nav-link" href="#Disco">DISCO</a></b>
+          </li>
+          <li class="nav-item">
+            <b><a class="nav-link" href="#Various">VARIOUS</a></b>
+          </li>
+          <li class="nav-item">
+            <b><a class="nav-link" href="#Dubtechno">DUBTECHNO</a></b>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#shopingCart">Cart <i
+            class="fas fa-shopping-cart fa-lg"><span class="badge badgeItemCount"></span></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container" id="searchable-container">
+    <!-- Page Heading -->
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h6 class="my-4"><b>All records are shipped from Germany with tracking and insurance.</b></h6>
+        <h6 class="my-4">Records shipped within GERMANY: 1 to 30 records = 5€. Records shipped to EU: 1 to 30 records = 14€</h6>
+        <h6 class="my-4"><b>All payments via PayPal or Bank transfer. Discounts applicable.</b></h6>
+      </div>
+    </div>
+    <div class="col-md-12 text-center" id="cardTest">
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; recordlist.bitbucket.io 2020</p>
+      <p class="m-0 text-center"><a class="text-white" href="/TermsAndConditions.html" target="_blank">Terms &
+          Conditions</a></p>
+      <p class="m-0 text-center"><a class="text-white" href="/PrivacyPolicy.html" target="_blank">Privacy Policy</a>
+      </p>
+      <p class="m-0 text-center"><a class="text-white" href="#">Back to top</a></p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main-1.js"></script>
+  <script src="js/jquery.searchable.js"></script>
+
+  <!-- Modal: modalCart -->
+  <div class="modal fade" id="shopingCart" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <!--Header-->
+        <form id="form" method="POST" action="https://formspree.io/recordlist.services&#64;gmail.com">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Your cart</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <!--Body-->
+          <div class="modal-body">
+            <table id="cartTable" class="table table-hover">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Product name</th>
+                  <th id="priceColumn">Price</th>
+                  <th style="display:none">Condition</th>
+                  <th><i class="far fa-trash-alt"></i></th>
+                </tr>
+              </thead>
+              <tbody id="tableBody"></tbody>
+              <tfoot id="tableFoot">
+                <tr class="shipping">
+                  <td class="itemShippingImg"><i class="fas fa-shipping-fast"></i></td>
+                  <td>
+                    <div id="shippingTariff">Shipping 1 to 30 x 12"</div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="shippingTo" value="DE">
+                        <img class="itemShippingImg" src="img/germany-flag.png" alt=""> in DE
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="shippingTo" value="EU" checked>
+                        <img class="itemShippingImg" src="img/eu-flag.png" alt=""> in EU
+                      </label>
+                    </div>
+                  </td>
+                  <td id='cartShipping' colspan='2'><i class='fas fa-euro-sign'></i></td>
+                </tr>
+                <tr class="total">
+                  <td class="text-center" colspan="2">Total</td>
+                  <td id='cartTotal' colspan='2'><i class='fas fa-euro-sign'></i></td>
+                </tr>
+                <tr class="total">
+                  <td class="text-center" colspan="4">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="far fa-user"></i></span>
+                      </div>
+                      <input type="text" class="form-control" required placeholder="Your name" name="name" id="name">
+                    </div>
+                  </td>
+                </tr>
+                <tr class="total">
+                  <td class="text-center" colspan="4">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-at"></i></span>
+                      </div>
+                      <input type="text" class="form-control" required placeholder="your.name@email.com" name="email"
+                        id="email">
+                    </div>
+                    <label class="red text-center" id="noneValidEmail"></label>
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <textarea id="message" name="message" placeholder="Test Message" style="display:none"></textarea>
+          <input type="text" name="_gotcha" style="display:none" />
+          <input id="subject" type="hidden" name="_subject" value="" />
+          <input id="replyto" type="hidden" name="_replyto" value="" />
+          <!--Footer-->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+            <!-- button type="button" class="btn btn-warning copyToClipboard">Copy To Clipboard</button -->
+            <button type="submit" class="btn btn-primary btn-success sendOrder">Send order</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Modal: modalCart -->
+
+  <div class="modal" id="specialMsgBlock">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-body">
+          <div class="alert alert-warning" role="alert">
+            <p id="specialMsg"></p>
+          </div>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Facebook Messenger plugin-->
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v5.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat" attribution=setup_tool page_id="108980440655284">
+  </div>
+
+</body>
+
+</html>

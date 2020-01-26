@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  padding-top: 56px;
+}
+
+.fa-shopping-cart {
+  color: #f8f9fa;
+}
+
+.itemShippingImg {
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+  border-bottom-left-radius: calc(.25rem - 1px);
+  border-bottom-right-radius: calc(.25rem - 1px);
+  width: 25px;
+  height: auto;
+}
+.removeItem {
+  color: red;
+  float: left;
+}
+#priceColumn {
+  width: 80px;
+}
+.red {
+  color: red;
+}
