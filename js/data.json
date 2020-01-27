@@ -2,26 +2,25 @@
     "root": [{
             "genreName": "House",
             "genreData": [{
-                   "id": "3",
-                   "img": "img/tourm2.jpg",
-                   "productName": "TOUR MAUBOURG Déclaration Préalable à l'Embauche",
-                   "recordLabel": "Label: Pont Neuf Records",
-                   "productCondition": "Condition: Near Mint",
-                   "productPrice": " 22",
-                   "link": "https://www.juno.co.uk/miniflashplayer/SF649556-01-01-01.mp3"
+                    "id": "3",
+                    "img": "img/tourm2.jpg",
+                    "productName": "TOUR MAUBOURG Déclaration Préalable à l'Embauche",
+                    "recordLabel": "Label: Pont Neuf Records",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 22",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF649556-01-01-01.mp3"
                 },
-               {
-                   "id": "3",
-                   "img": "img/laurencegall.jpg",
-                   "productName": "LAURENCE GUY – All I See Is Her",
-                   "recordLabel": "Label: Mule Musiq Japan",
-                   "productCondition": "Condition: Near Mint",
-                   "productPrice": " 22",
-                   "link": "https://www.juno.co.uk/miniflashplayer/SF673721-01-01-01.mp3"
-               },
-               {   
-                
-                   "id": "3",
+                {
+                    "id": "3",
+                    "img": "img/laurencegall.jpg",
+                    "productName": "LAURENCE GUY – All I See Is Her",
+                    "recordLabel": "Label: Mule Musiq Japan",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 22",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF673721-01-01-01.mp3"
+                },
+                {
+                    "id": "3",
                     "img": "img/HugoLXLowAltitude.jpg",
                     "productName": "HUGO LX - Low Altitude",
                     "recordLabel": "Label: Courtesy Of Balance",
@@ -411,15 +410,14 @@
         {
             "genreName": "Dubtechno",
             "genreData": [{
-                    "id": "31",
-                    "img": "img/AndreyPushkarev.jpg",
-                    "productName": "ANDREY PUSHKAREV - Photograph",
-                    "recordLabel": "Label: Luck of Access",
-                    "productCondition": "Condition: Mint",
-                    "productPrice": " 20",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF661597-01-01-01.mp3"
-                }
-            ]
+                "id": "31",
+                "img": "img/AndreyPushkarev.jpg",
+                "productName": "ANDREY PUSHKAREV - Photograph",
+                "recordLabel": "Label: Luck of Access",
+                "productCondition": "Condition: Mint",
+                "productPrice": " 20",
+                "link": "https://www.juno.co.uk/miniflashplayer/SF661597-01-01-01.mp3"
+            }]
         }
     ]
 }
