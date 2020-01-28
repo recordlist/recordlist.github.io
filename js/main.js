@@ -258,7 +258,7 @@ function getTBody() {
       "rowNo": $(tr).find('td:eq(0)').text(),
       "dataId": $(tr).attr('id'),
       "productName": $(tr).find('td:eq(1)').text(),
-      "condition": $(tr).find('td:eq(3)').text(),
+      "productCondition": $(tr).find('td:eq(3)').text(),
       "price": $(tr).find('td:eq(2)').text()
     }
   });
