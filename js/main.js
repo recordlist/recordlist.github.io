@@ -240,7 +240,7 @@ function getBodyValues(tabFootVal) {
         str += "";
       } else if (key === "productName") {
         str += val;
-      } else if (key === "condition") {
+      } else if (key === "productCondition") {
         str += "(" + val + "):";
       } else if (key === "price") {
         str += " €" + val + ";";
