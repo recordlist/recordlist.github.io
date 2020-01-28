@@ -138,7 +138,7 @@ function loadData(cardsData) {
     itemCounter++;
     var productName = $(this).closest('.card').children('.card-body').children('.productName').text();
     var productId = $(this).closest('.card').attr('data-id');
-    var condition = $(this).closest('.card').children('.card-footer').children('.productCondition ').text();
+    var condition = $(this).closest('.card').children('.card-body').children('.productCondition ').text();
     var price = parseFloat($(this).closest('.card').children('.card-footer').children('.productPrice').text().replace(',', '.'));
     var markup = "<tr id=" +
       productId + "><td scope='row' class='itemId'>" +
