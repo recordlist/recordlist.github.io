@@ -1,6 +1,6 @@
 {
-    "title": "Heroic Features",
-    "name": "startbootstrap-heroic-features",
+    "title": "Recordlist",
+    "name": "recordlist.github.io",
     "version": "4.1.2",
     "description": "An HTML template with a hero heading and feature cards built with Bootstrap",
     "keywords": [
@@ -11,23 +11,23 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/heroic-features",
+    "homepage": "https://recordlist.github.io/",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-heroic-features/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/recordlist/recordlist.github.io/issues"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "recordlist.github.io",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "recordlist.github.io"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-heroic-features.git"
+        "url": "https://github.com/recordlist/recordlist.github.io"
     },
     "dependencies": {
         "bootstrap": "^4.4.1",
-        "jquery": "3.4.0"
+        "jquery": "3.4.0",
+        "popper.js": "^1.16.1"
     },
     "devDependencies": {
         "browser-sync": "^2.26.7",
