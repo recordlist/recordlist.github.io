@@ -10,11 +10,11 @@ After installation, run `npm install`, `npm install uglify-js -g`.
 
 Install `npm install --save-dev gulp-uglify`, `npm install gulp-concat --save-dev`
 
-For old browser compatibility added Modernizr 3.8.0., it doesn`t contain build version.
+For old browser compatibility added Modernizr 3.8.0., it doesn't contain build version.
 Run `./node_modules/modernizr/bin/modernizr -c ./node_modules/modernizr/lib/config-all.json -d ./node_modules/modernizr/dist/modernizr-3.8.0.js`.
-There is a mistake in build aprox. on line 6933 in cleanup part, add one more condition into if statement - from `if (body.fake) {` to `if (body.parentNode && body.fake) {`.
-Then run uglify & minify to get minified version of Modernizr 3.8.0 
-- `uglifyjs ./node_modules/modernizr/dist/modernizr-3.8.0.js --output ./node_modules/modernizr/dist/modernizr-3.8.0.min.js`.
+There is a mistake in build aprox. on line 6933 in cleanup part, add one more condition into if statement - from 'if (body.fake)' to 'if (body.parentNode && body.fake)'.
+Then run uglify & minify to get minified version of Modernizr 3.8.0 -
+`uglifyjs ./node_modules/modernizr/dist/modernizr-3.8.0.js --output ./node_modules/modernizr/dist/modernizr-3.8.0.min.js`.
 
 After all run `gulp` to build all staff.
 
