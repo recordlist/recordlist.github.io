@@ -27,12 +27,14 @@
     "dependencies": {
         "bootstrap": "^4.4.1",
         "jquery": "3.4.0",
+        "modernizr": "^3.8.0",
         "popper.js": "^1.16.1",
-        "respond.js": "1.4.2",
-        "modernizr": "3.8.0"
+        "respond.js": "1.4.2"
     },
     "devDependencies": {
         "browser-sync": "^2.26.7",
-        "gulp": "^4.0.0"
+        "gulp": "^4.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-uglify": "^3.0.2"
     }
 }

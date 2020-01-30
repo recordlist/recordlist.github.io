@@ -1,6 +1,8 @@
 // Load plugins
 const browsersync = require("browser-sync").create();
 const gulp = require("gulp");
+const gulp_uglify = require("gulp-uglify");
+var concat = require('gulp-concat');
 
 // Copy third party libraries from /node_modules into /vendor
 gulp.task('vendor', function(cb) {
@@ -19,6 +21,14 @@ gulp.task('vendor', function(cb) {
       '!./node_modules/jquery/dist/core.js'
     ])
     .pipe(gulp.dest('./vendor/jquery'))
+
+  // modernizr + respond
+  gulp.src([
+    './node_modules/modernizr/dist/modernizr-3.8.0.min.js',
+    './node_modules/respond.js/dest/respond.min.js'
+  ])
+  .pipe(concat('modernizr-3.8.0-respond-1.4.2.min.js'))
+  .pipe(gulp.dest('./vendor/modernizr'))
 
   cb();
 
