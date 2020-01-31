@@ -2,9 +2,10 @@
 const browsersync = require("browser-sync").create();
 const del = require("del");
 const gulp = require("gulp");
-const gulp_uglify = require("gulp-uglify");
-var concat = require('gulp-concat');
+const uglify = require("gulp-uglify-es").default;
+const concat = require('gulp-concat');
 const merge = require("merge-stream");
+const rename = require('gulp-rename');
 
 // BrowserSync
 function browserSync(done) {
@@ -49,7 +50,13 @@ function modules() {
     .pipe(concat('modernizr-3.8.0-respond-1.4.2.min.js'))
     .pipe(gulp.dest('./vendor/modernizr'));
 
-  return merge(bootstrap, jquery, modernizr);
+  // minify & ugllify main.js
+  var mainjs = gulp.src(['./js/main.js'])
+    .pipe(rename('main.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./js'));
+
+  return merge(bootstrap, jquery, modernizr, mainjs);
 }
 
 // Watch files

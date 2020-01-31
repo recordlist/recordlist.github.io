@@ -12,6 +12,11 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
+  <meta name="google-signin-scope" content="profile email">
+  <meta name="google-signin-client_id" content="63933666403-ttbt33mapbhim0s18fcfeotlbqapqvsu.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
   <title>Records For Sale</title>
 
   <!-- Bootstrap core CSS -->
@@ -54,6 +59,9 @@
         </ul>
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#shopingCart">Cart <i
             class="fas fa-shopping-cart fa-lg"><span class="badge badgeItemCount"></span></i></button>
+            <div class="my-2 my-lg-0">
+            <a href="#" onclick="signOut();">Sign out</a>
+            </div>
       </div>
     </div>
   </nav>
@@ -89,7 +97,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.min.js"></script>
   <script src="js/jquery.searchable.js"></script>
 
   <!-- Modal: modalCart -->
@@ -160,6 +168,7 @@
                       <input type="text" class="form-control" required placeholder="your.name@email.com" name="email"
                         id="email">
                     </div>
+                    <div class="g-signin2" data-onsuccess="onSignIn"></div>
                     <label class="red text-center" id="noneValidEmail"></label>
                   </td>
                 </tr>
