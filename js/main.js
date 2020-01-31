@@ -101,7 +101,7 @@ function loadData(cardsData) {
     var f = tFootCSV + "\n";
     var ts = Math.round((new Date()).getTime() / 1000);
     var order = 'Order Number: ' + ts + "\n" + b + f;
-    $("#message").text(order);
+    $("#message").val(order);
     $("#subject").val('Order no.: ' + ts);
     $("#replyto").val(tabFootVal[3].userEmail);
   });
