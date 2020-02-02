@@ -2,7 +2,7 @@
     "root": [{
             "genreName": "House",
             "genreData": [{
-                    "id": "3",
+                    "id": "1",
                     "img": "img/tourm2.jpg",
                     "productName": "TOUR MAUBOURG Déclaration Préalable à l'Embauche",
                     "recordLabel": "Label: Pont Neuf Records",
@@ -11,7 +11,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF649556-01-01-01.mp3"
                 },
                 {
-                    "id": "3",
+                    "id": "2",
                     "img": "img/laurencegall.jpg",
                     "productName": "LAURENCE GUY – All I See Is Her",
                     "recordLabel": "Label: Mule Musiq Japan",
@@ -29,16 +29,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF586597-01-01-01.mp3"
                 },
                 {
-                    "id": "3",
-                    "img": "img/deeperthan.jpg",
-                    "productName": "VARIOUS - Deeper Than Deep 1",
-                    "recordLabel": "Label: Manuscript",
-                    "productCondition": "Condition: Near Mint",
-                    "productPrice": " 7",
-                    "link": "https://www.decks.de/track/herbert-nick_holder-pluto-vincent_inc-deeper_than_deep_1/c8v-tk"
-                },
-                {
-                    "id": "3",
+                    "id": "4",
                     "img": "img/banofee.jpg",
                     "productName": "VARIOUS – Limited Series 05",
                     "recordLabel": "Label: Banoffee Pies",
@@ -47,7 +38,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF648445-01-01-01.mp3"
                 },
                 {
-                    "id": "3",
+                    "id": "5",
                     "img": "img/rontrent.jpg",
                     "productName": "RON TRENT – Gemini Jazz",
                     "recordLabel": "Label: Music And Power",
@@ -56,7 +47,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF653616-01-01-01.mp3"
                 },
                 {
-                    "id": "3",
+                    "id": "6",
                     "img": "img/rontrentjazz.jpg",
                     "productName": "RON TRENT - Jazz It Up",
                     "recordLabel": "Label: Groovin",
@@ -65,16 +56,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF684866-01-01-01.mp3"
                 },
                 {
-                    "id": "12",
-                    "img": "img/baazwhatabout.jpg",
-                    "productName": "BAAZ - What About Talk About #2",
-                    "recordLabel": "Label: Office Recordings",
-                    "productCondition": "Condition: Near Mint",
-                    "productPrice": " 4",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF474892-01-01-01.mp3"
-                },
-                {
-                    "id": "3",
+                    "id": "7",
                     "img": "img/johnick.jpg",
                     "productName": "JOHNICK - Play The World",
                     "recordLabel": "Label: Henry Street Music",
@@ -83,7 +65,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF523697-01-01-01.mp3"
                 },
                 {
-                    "id": "21",
+                    "id": "8",
                     "img": "img/SecretLover.jpg",
                     "productName": "SECRET LOVER - Between You And Me",
                     "recordLabel": "Label: Heart To Heart",
@@ -92,7 +74,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF615506-01-01-01.mp3"
                 },
                 {
-                    "id": "2",
+                    "id": "9",
                     "img": "img/boexxx600.jpg",
                     "productName": "VARIOUS - Boe XXX 2LP",
                     "recordLabel": "Label: Boe Recordings",
@@ -101,25 +83,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF607157-01-01-01.mp3"
                 },
                 {
-                    "id": "1",
-                    "img": "img/iron-curtis_lights-ep.jpg",
-                    "productName": "IRON CURTIS - Lights EP Part 2",
-                    "recordLabel": "Label: Hudd Traxx",
-                    "productCondition": "Condition: Near Mint",
-                    "productPrice": " 6",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF648678-01-01-01.mp3"
-                },
-                {
-                    "id": "4",
-                    "img": "img/BBTHE3RD.jpg",
-                    "productName": "BBTHE3RD01",
-                    "recordLabel": "Label: BAMBAMTHE3RD",
-                    "productCondition": "Condition: Near Mint",
-                    "productPrice": " 6",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF633988-01-01-01.mp3"
-                },
-                {
-                    "id": "5",
+                    "id": "10",
                     "img": "img/omar.jpg",
                     "productName": "OMAR SANTIS - Bananvirvel",
                     "recordLabel": "Label: Woodsmen & Ladylog",
@@ -128,7 +92,7 @@
                     "link": "https://soundcloud.com/woodsmen-1/w-ll003-omar-santis"
                 },
                 {
-                    "id": "61",
+                    "id": "11",
                     "img": "img/Bakradze.jpg",
                     "productName": "BAKRADZE - Before Time Altered Them",
                     "recordLabel": "Label: Transfigured Time",
@@ -137,7 +101,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF587629-01-01-01.mp3"
                 },
                 {
-                    "id": "10",
+                    "id": "12",
                     "img": "img/voyage.jpg",
                     "productName": "VARIOUS - Voyage Sampler 01",
                     "recordLabel": "Label: Voyage",
@@ -146,7 +110,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF539900-01-01-01.mp3"
                 },
                 {
-                    "id": "12",
+                    "id": "13",
                     "img": "img/smallpeople.jpg",
                     "productName": "SMALLPEOPLE - Black Ice",
                     "recordLabel": "Label: Smallville",
@@ -155,7 +119,7 @@
                     "link": "https://smallville-records.bandcamp.com/album/smallville-27-smallpeople-black-ice"
                 },
                 {
-                    "id": "37",
+                    "id": "14",
                     "img": "img/Homepark.jpg",
                     "productName": "HOMEPARK - Peak Organic",
                     "recordLabel": "Label: Ornate Music",
@@ -173,15 +137,6 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF499286-01-01-01.mp3"
                 },
                 {
-                    "id": "11",
-                    "img": "img/wolfep.jpg",
-                    "productName": "CASINO TIMES - Wolf EP 023",
-                    "recordLabel": "Label: Wolf Music",
-                    "productCondition": "Condition: Near Mint",
-                    "productPrice": " 4",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF517771-01-01-01.mp3"
-                },
-                {
                     "id": "15",
                     "img": "img/LayFar.jpg",
                     "productName": "LAY-FAR - Never Good Enough",
@@ -191,29 +146,20 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF675398-01-01-01.mp3"
                 },
                 {
-                    "id": "23",
+                    "id": "16",
                     "img": "img/RosasNievas.jpg",
                     "productName": "ROSAS NIEVAS - Going Away Soon",
                     "recordLabel": "Label: Scissor and Thread",
                     "productCondition": "Condition: Near Mint",
                     "productPrice": " 5",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF607008-01-01-01.mp3"
-                },
-                {
-                    "id": "3",
-                    "img": "img/blackdynamite.jpg",
-                    "productName": "BLACK DYNAMITE - Busted Loop",
-                    "recordLabel": "Label: Fear Of Flying",
-                    "productCondition": "Condition: Near Mint",
-                    "productPrice": " 3",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF451539-01-01-01.mp3"
                 }
             ]
         },
         {
             "genreName": "Disco",
             "genreData": [{
-                    "id": "49",
+                    "id": "17",
                     "img": "img/40thieves.jpg",
                     "productName": "40 THIEVES - Don't Turn It Off",
                     "recordLabel": "Label: Permanent Vacation Germany",
@@ -222,7 +168,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF307546-01-01-01.mp3"
                 },
                 {
-                    "id": "3",
+                    "id": "18",
                     "img": "img/metro.jpg",
                     "productName": "METRO AREA - Metro Area 4",
                     "recordLabel": "Label: Environ",
@@ -231,7 +177,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF83883-01-01-01.mp3"
                 },
                 {
-                    "id": "3",
+                    "id": "19",
                     "img": "img/sessionv.jpg",
                     "productName": "SESSION VICTIM - Left The Building",
                     "recordLabel": "Label: Delusions Of Grandeur",
@@ -240,16 +186,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF380454-01-01-01.mp3"
                 },
                 {
-                    "id": "49",
-                    "img": "img/reverendp.jpg",
-                    "productName": "REVEREND P - Reverend P Edits",
-                    "recordLabel": "Label: Razor-N-Tape",
-                    "productCondition": "Condition: Near Mint",
-                    "productPrice": " 8",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF657315-01-01-01.mp3"
-                },
-                {
-                    "id": "50",
+                    "id": "20",
                     "img": "img/jacquesr.jpg",
                     "productName": "JACQUES RENAULT - Edits",
                     "recordLabel": "Label: Razor-N-Tape",
@@ -258,7 +195,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF660843-01-01-01.mp3"
                 },
                 {
-                    "id": "47",
+                    "id": "21",
                     "img": "img/patricerus.jpg",
                     "productName": "PATRICE RUSHEN - Forget Me Nots",
                     "recordLabel": "Label: Warner",
@@ -267,7 +204,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF149711-01-01-01.mp3"
                 },
                 {
-                    "id": "48",
+                    "id": "22",
                     "img": "img/farout.jpg",
                     "productName": "FAR OUT MONSTER DISCO ORCHESTRA - Step Into My Life",
                     "recordLabel": "Label: Far Out",
@@ -276,7 +213,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF689741-01-01-01.mp3"
                 },
                 {
-                    "id": "3",
+                    "id": "23",
                     "img": "img/hotmood.jpg",
                     "productName": "HOTMOOD - Disco De Los Muertos EP",
                     "recordLabel": "Label: Whiskey Disco",
@@ -285,7 +222,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF668366-01-01-01.mp3"
                 },
                 {
-                    "id": "50",
+                    "id": "24",
                     "img": "img/codycurrie.jpg",
                     "productName": "CODY CURRIE - Beer Machine EP",
                     "recordLabel": "Label: Better Listen Records",
@@ -294,16 +231,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF639697-01-01-01.mp3"
                 },
                 {
-                    "id": "47",
-                    "img": "img/sune.jpg",
-                    "productName": "SUNE - Butter Love EP",
-                    "recordLabel": "Label: Better Listen Records",
-                    "productCondition": "Condition: Near Mint",
-                    "productPrice": " 6",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF680344-01-01-01.mp3"
-                },
-                {
-                    "id": "49",
+                    "id": "25",
                     "img": "img/chezus.jpg",
                     "productName": "CHEZUS - Special (White Label)",
                     "recordLabel": "Label: Beer",
@@ -312,7 +240,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF673820-01-01-01.mp3"
                 },
                 {
-                    "id": "50",
+                    "id": "26",
                     "img": "img/marcromboy.jpg",
                     "productName": "MARC ROMBOY & BLAKE BAXTER - The Art Of Sound 10",
                     "recordLabel": "Label: Systematic",
@@ -321,7 +249,7 @@
                     "link": "https://www.decks.de/track/marc_romboy_blake_baxter-the_art_of_sound/c03-73"
                 },
                 {
-                    "id": "55",
+                    "id": "27",
                     "img": "img/mariusvareid.jpg",
                     "productName": "MARIUS VAREID - Skumle Planer / Tropisk Storm (Promo White Label)",
                     "recordLabel": "Label: Full Pupp",
@@ -330,7 +258,7 @@
                     "link": "https://www.beatport.com/release/skumle-planer/148562"
                 },
                 {
-                    "id": "57",
+                    "id": "28",
                     "img": "img/tirk.jpg",
                     "productName": "VARIOUS - Tirk 02 Promo Sampler",
                     "recordLabel": "Label: Tirk",
@@ -339,7 +267,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF342128-01-01-01.mp3"
                 },
                 {
-                    "id": "52",
+                    "id": "29",
                     "img": "img/divine600.jpg",
                     "productName": "UNKNOWN - Divine Edits",
                     "recordLabel": "Label: Creative Use",
@@ -357,7 +285,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF289778-01-01-01.mp3"
                 },
                 {
-                    "id": "57",
+                    "id": "30",
                     "img": "img/runaway.jpg",
                     "productName": "RUNAWAY - She Did It For The Money",
                     "recordLabel": "Label: I' m Cliche",
@@ -366,7 +294,7 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF294820-01-01-01.mp3"
                 },
                 {
-                    "id": "53",
+                    "id": "31",
                     "img": "img/LSB.jpg",
                     "productName": "L.S.B. - Original Highway Delight",
                     "recordLabel": "Label: Eskimo",
@@ -379,7 +307,7 @@
         {
             "genreName": "Various",
             "genreData": [{
-                    "id": "56",
+                    "id": "32",
                     "img": "img/mrg.jpg",
                     "productName": " MR G – Atmosphere EP ",
                     "recordLabel": "Label: Careless",
@@ -388,7 +316,7 @@
                     "link": "https://www.discogs.com/Mr-G-Atmosphere-EP/release/1026077"
                 },
                 {
-                    "id": "50",
+                    "id": "33",
                     "img": "img/breekout.jpg",
                     "productName": "THE BREEKOUT KREW - Matt's Mood",
                     "recordLabel": "Label: London Records",
@@ -397,7 +325,7 @@
                     "link": "https://www.discogs.com/The-Breekout-Krew-Matts-Mood/release/122233"
                 },
                 {
-                    "id": "50",
+                    "id": "34",
                     "img": "img/annie.jpg",
                     "productName": "ANNIE LENNOX - Songs Of Mass Destruction",
                     "recordLabel": "Label: Sony BMG",
@@ -410,7 +338,7 @@
         {
             "genreName": "Dubtechno",
             "genreData": [{
-                "id": "31",
+                "id": "35",
                 "img": "img/AndreyPushkarev.jpg",
                 "productName": "ANDREY PUSHKAREV - Photograph",
                 "recordLabel": "Label: Luck of Access",
