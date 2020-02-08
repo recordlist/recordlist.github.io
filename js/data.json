@@ -168,15 +168,6 @@
                     "link": "https://www.juno.co.uk/miniflashplayer/SF307546-01-01-01.mp3"
                 },
                 {
-                    "id": "18",
-                    "img": "img/metro.jpg",
-                    "productName": "METRO AREA - Metro Area 4",
-                    "recordLabel": "Label: Environ",
-                    "productCondition": "Condition: Very Good +",
-                    "productPrice": " 11",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF83883-01-01-01.mp3"
-                },
-                {
                     "id": "19",
                     "img": "img/sessionv.jpg",
                     "productName": "SESSION VICTIM - Left The Building",
@@ -193,15 +184,6 @@
                     "productCondition": "Condition: Near Mint",
                     "productPrice": " 7",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF660843-01-01-01.mp3"
-                },
-                {
-                    "id": "21",
-                    "img": "img/patricerus.jpg",
-                    "productName": "PATRICE RUSHEN - Forget Me Nots",
-                    "recordLabel": "Label: Warner",
-                    "productCondition": "Condition: Mint",
-                    "productPrice": " 7",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF149711-01-01-01.mp3"
                 },
                 {
                     "id": "22",
@@ -258,15 +240,6 @@
                     "link": "https://www.beatport.com/release/skumle-planer/148562"
                 },
                 {
-                    "id": "28",
-                    "img": "img/tirk.jpg",
-                    "productName": "VARIOUS - Tirk 02 Promo Sampler",
-                    "recordLabel": "Label: Tirk",
-                    "productCondition": "Condition: Very Good",
-                    "productPrice": " 6",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF342128-01-01-01.mp3"
-                },
-                {
                     "id": "29",
                     "img": "img/divine600.jpg",
                     "productName": "UNKNOWN - Divine Edits",
@@ -274,33 +247,6 @@
                     "productCondition": "Condition: Very Good +",
                     "productPrice": " 10",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF286323-01-01-01.mp3"
-                },
-                {
-                    "id": "56",
-                    "img": "img/bonaire.jpg",
-                    "productName": "DUTCH RHYTHM COMBO Bonaire Remixes II",
-                    "recordLabel": "Label: Highscore Publishing",
-                    "productCondition": "Condition: Very Good",
-                    "productPrice": " 2",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF289778-01-01-01.mp3"
-                },
-                {
-                    "id": "30",
-                    "img": "img/runaway.jpg",
-                    "productName": "RUNAWAY - She Did It For The Money",
-                    "recordLabel": "Label: I' m Cliche",
-                    "productCondition": "Condition: Very Good",
-                    "productPrice": " 2",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF294820-01-01-01.mp3"
-                },
-                {
-                    "id": "31",
-                    "img": "img/LSB.jpg",
-                    "productName": "L.S.B. - Original Highway Delight",
-                    "recordLabel": "Label: Eskimo",
-                    "productCondition": "Condition: Very Good +",
-                    "productPrice": " 2",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF243747-01-01-01.mp3"
                 }
             ]
         },
