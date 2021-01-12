@@ -26,7 +26,15 @@
     filter: grayscale(100%);
 }
 
+/* Navbar Toggler */
 
+.navbar-toggler {
+    margin-right: 14px;
+}
+
+.navbar-toggler-icon {
+    filter:brightness(70%);
+}
 
 /* BUTTONS */
 
