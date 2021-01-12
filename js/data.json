@@ -3,156 +3,483 @@
             "genreName": "House",
             "genreData": [{
                     "id": "1",
-                    "img": "img/tourm2.jpg",
-                    "productName": "TOUR MAUBOURG Déclaration Préalable à l'Embauche",
+                    "img": "img/LaurenceSaw.jpg",
+                    "productName": "LAURENCE GUY",
+                    "title": "Saw You For The First Time (2P)",
+                    "recordLabel": "Label: Church",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 100 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF654446-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/Fireckracker.jpg",
+                    "productName": "VARIOUS",
+                    "title": "Firecracker EP 1 (RP)",
+                    "recordLabel": "Label: Firecracker Recordings",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 25 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF294309-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/tourmfull.jpg",
+                    "productName": "TOUR MAUBOURG",
+                    "title": "Déclaration Préalable à l'Embauche",
                     "recordLabel": "Label: Pont Neuf Records",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 22",
+                    "productPrice": " 22 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF649556-01-01-01.mp3"
                 },
                 {
-                    "id": "2",
+                    "id": "1",
+                    "img": "img/ChaosMid.jpg",
+                    "productName": "CHAOS IN THE CBD",
+                    "title": "Midnight In Peckham",
+                    "recordLabel": "Label: Rhythm Section International",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 9 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF583626-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/KimBrown.jpg",
+                    "productName": "KIM BROWN",
+                    "title": "Wisdom Is A Dancer (2LP)",
+                    "recordLabel": "Label: Just Another Beat",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 16 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF607620-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/Moomin.jpg",
+                    "productName": "MOOMIN",
+                    "title": "A Minor Thought (2LP)",
+                    "recordLabel": "Label: Smallville Records",
+                    "productCondition": "Condition: Very Good +",
+                    "productPrice": " 16 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF594696-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/TornadoWall.jpg",
+                    "productName": "TORNADO WALLACE",
+                    "title": "Lonely Planet",
+                    "recordLabel": "Label: Running Back",
+                    "productCondition": "Condition: Mint",
+                    "productPrice": " 15 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF629248-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/Andres.jpg",
+                    "productName": "ANDRÉS",
+                    "title": "New For U",
+                    "recordLabel": "Label: La Vida",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 30 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF444180-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/VarPrivatColl.jpg",
+                    "productName": "VARIOUS",
+                    "title": "Privat Collection 2",
+                    "recordLabel": "Label: PCC2",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 9 eur",
+                    "link": "https://www.decks.de/track/various_artists-private_collection_2/bxd-0x"
+                },
+                {
+                    "id": "1",
+                    "img": "img/ChaosComfort.jpg",
+                    "productName": "CHAOS IN THE CBD",
+                    "title": "Comfort Zone",
+                    "recordLabel": "Label: Mule Musiq",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 18 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF662535-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
                     "img": "img/laurencegall.jpg",
-                    "productName": "LAURENCE GUY - All I See Is Her",
+                    "productName": "LAURENCE GUY",
+                    "title": "All I See Is Her",
                     "recordLabel": "Label: Mule Musiq Japan",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 22",
+                    "productPrice": " 20 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF673721-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/NickHol.jpg",
+                    "productName": "NICK HOLDER",
+                    "title": "Reminiscin' EP",
+                    "recordLabel": "Label: Deep & Roll",
+                    "productCondition": "Condition: Mint",
+                    "productPrice": " 9 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF583053-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/VarAnalogSig.jpg",
+                    "productName": "VARIOUS",
+                    "title": "Analogue Signal EP",
+                    "recordLabel": "Label: Batti Batti",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 8 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF497352-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/LTDWLBL002.jpg",
+                    "productName": "VARIOUS",
+                    "title": "LTDWLBL002",
+                    "recordLabel": "Label: Ltd, W/Lbl",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 8 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF637055-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/VANewGrass.jpg",
+                    "productName": "UNKNOWN ARTIST",
+                    "title": "New Grass / Wealth Fluida",
+                    "recordLabel": "Label: F(5)",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 6 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF681081-01-01-01.mp3"
                 },
                 {
                     "id": "3",
                     "img": "img/HugoLXLowAltitude.jpg",
-                    "productName": "HUGO LX - Low Altitude",
+                    "productName": "HUGO LX",
+                    "title": "Low Altitude",
                     "recordLabel": "Label: Courtesy Of Balance",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 9",
+                    "productPrice": " 7 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF586597-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/FrankToAppre.jpg",
+                    "productName": "FRANK AND TONY",
+                    "title": "Apprentice EP",
+                    "recordLabel": "Label: Scissor and Thread",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 7 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF581541-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/FrankToHarmonium.jpg",
+                    "productName": "FRANK AND TONY",
+                    "title": "Harmonium EP",
+                    "recordLabel": "Label: Scissor and Thread",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 6 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF625983-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/FrankToTheGale.jpg",
+                    "productName": "FRANK AND TONY",
+                    "title": "The Gales",
+                    "recordLabel": "Label: Mule Musiq",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 4 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF572420-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/AndreyPushkarev.jpg",
+                    "productName": "ANDREY PUSHKAREV",
+                    "title": "Photograph",
+                    "recordLabel": "Label: Luck Of Access",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 20 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF661597-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/MarcoNega.jpg",
+                    "productName": "MARCO NEGA",
+                    "title": "Cosy Cutz EP",
+                    "recordLabel": "Label: Waehlscheibe",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 9 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF598391-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/ThomasWoodRooted.jpg",
+                    "productName": "THOMAS WOOD",
+                    "title": "Rooted In The Past",
+                    "recordLabel": "Label: Waehlscheibe",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 6 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF636495-01-01-01.mp3"
+                },
+                {
+                    "id": "1",
+                    "img": "img/ThomasWoodWe.jpg",
+                    "productName": "THOMAS WOOD",
+                    "title": "We Need Direction",
+                    "recordLabel": "Label: JD Records",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 5 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF631043-01-01-01.mp3"
+                },
+                {
+                    "id": "10",
+                    "img": "img/omar.jpg",
+                    "productName": "OMAR SANTIS",
+                    "title": "Bananvirvel",
+                    "recordLabel": "Label: Woodsmen & Ladylog",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 4 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF519653-01-01-01.mp3"
                 },
                 {
                     "id": "4",
                     "img": "img/banofee.jpg",
-                    "productName": "VARIOUS – Limited Series 05",
+                    "productName": "VARIOUS",
+                    "title": "Limited Series 05",
                     "recordLabel": "Label: Banoffee Pies",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 8",
+                    "productPrice": " 7 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF648445-01-01-01.mp3"
                 },
                 {
                     "id": "5",
                     "img": "img/rontrent.jpg",
-                    "productName": "RON TRENT – Gemini Jazz",
+                    "productName": "RON TRENT",
+                    "title": "Gemini Jazz",
                     "recordLabel": "Label: Music And Power",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 10",
+                    "productPrice": " 8 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF653616-01-01-01.mp3"
                 },
                 {
                     "id": "6",
                     "img": "img/rontrentjazz.jpg",
-                    "productName": "RON TRENT - Jazz It Up",
+                    "productName": "RON TRENT",
+                    "title": "Jazz It Up",
                     "recordLabel": "Label: Groovin",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 10",
+                    "productPrice": " 10 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF684866-01-01-01.mp3"
                 },
                 {
                     "id": "7",
                     "img": "img/johnick.jpg",
-                    "productName": "JOHNICK - Play The World",
+                    "productName": "JOHNICK",
+                    "title": "Play The World",
                     "recordLabel": "Label: Henry Street Music",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 7",
+                    "productPrice": " 7 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF523697-01-01-01.mp3"
                 },
                 {
                     "id": "8",
                     "img": "img/SecretLover.jpg",
-                    "productName": "SECRET LOVER - Between You And Me",
+                    "productName": "SECRET LOVER",
+                    "title": "Between You And Me",
                     "recordLabel": "Label: Heart To Heart",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 5",
+                    "productPrice": " 5 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF615506-01-01-01.mp3"
                 },
                 {
                     "id": "9",
                     "img": "img/boexxx600.jpg",
-                    "productName": "VARIOUS - Boe XXX 2LP",
+                    "productName": "VARIOUS",
+                    "title": "Boe XXX (2LP)",
                     "recordLabel": "Label: Boe Recordings",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 12",
+                    "productPrice": " 10 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF607157-01-01-01.mp3"
                 },
                 {
-                    "id": "10",
-                    "img": "img/omar.jpg",
-                    "productName": "OMAR SANTIS - Bananvirvel",
-                    "recordLabel": "Label: Woodsmen & Ladylog",
+                    "id": "8",
+                    "img": "img/KirillT.jpg",
+                    "productName": "KIRILL TIPO",
+                    "title": "Believe In Rhythm",
+                    "recordLabel": "Label: Outernational",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 5",
-                    "link": "https://soundcloud.com/woodsmen-1/w-ll003-omar-santis"
+                    "productPrice": " 5 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF447634-01-01-01.mp3"
                 },
                 {
-                    "id": "11",
-                    "img": "img/Bakradze.jpg",
-                    "productName": "BAKRADZE - Before Time Altered Them",
-                    "recordLabel": "Label: Transfigured Time",
-                    "productCondition": "Condition: Near Mint",
-                    "productPrice": " 6",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF587629-01-01-01.mp3"
+                    "id": "9",
+                    "img": "img/MicNew.jpg",
+                    "productName": "MIC NEWMAN",
+                    "title": "Live East, Die Young E.P.",
+                    "recordLabel": "Label: Fina Records",
+                    "productCondition": "Condition: Good +",
+                    "productPrice": " 4 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF410022-01-01-01.mp3"
+                },
+                {
+                    "id": "9",
+                    "img": "img/Moodymanc.jpg",
+                    "productName": "MOODYMANC",
+                    "title": "State EP",
+                    "recordLabel": "Label: Centric Music",
+                    "productCondition": "Condition: Very Good +",
+                    "productPrice": " 4 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF451053-01-01-01.mp3"
+                },
+                {
+                    "id": "9",
+                    "img": "img/JackFell.jpg",
+                    "productName": "JACK FELL DOWN",
+                    "title": "Hot And Hazy",
+                    "recordLabel": "Label: Quintessentials",
+                    "productCondition": "Condition: Very Good +",
+                    "productPrice": " 5 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF530573-01-01-01.mp3"
                 },
                 {
                     "id": "12",
                     "img": "img/voyage.jpg",
-                    "productName": "VARIOUS - Voyage Sampler 01",
+                    "productName": "VARIOUS",
+                    "title": "Voyage Sampler 01",
                     "recordLabel": "Label: Voyage",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 6",
+                    "productPrice": " 6 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF539900-01-01-01.mp3"
                 },
                 {
                     "id": "13",
                     "img": "img/smallpeople.jpg",
-                    "productName": "SMALLPEOPLE - Black Ice",
+                    "productName": "SMALLPEOPLE",
+                    "title": "Black Ice",
                     "recordLabel": "Label: Smallville",
-                    "productCondition": "Condition: Near Mint",
-                    "productPrice": " 7",
-                    "link": "https://smallville-records.bandcamp.com/album/smallville-27-smallpeople-black-ice"
+                    "productCondition": "Condition: Very Good +",
+                    "productPrice": " 5 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF439672-01-01-01.mp3"
                 },
                 {
                     "id": "14",
                     "img": "img/Homepark.jpg",
-                    "productName": "HOMEPARK - Peak Organic",
+                    "productName": "HOMEPARK",
+                    "title": "Peak Organic",
                     "recordLabel": "Label: Ornate Music",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 8",
+                    "productPrice": " 7 eur",
                     "link": "https://www.decks.de/track/homepark-peak_organic/c5f-21"
                 },
                 {
-                    "id": "17",
-                    "img": "img/Leonid.jpg",
-                    "productName": "LEONID - Radar EP",
-                    "recordLabel": "Label: Dolly",
+                    "id": "11",
+                    "img": "img/Bakradze.jpg",
+                    "productName": "BAKRADZE",
+                    "title": "Before Time Altered Them",
+                    "recordLabel": "Label: Transfigured Time",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 6",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF499286-01-01-01.mp3"
+                    "productPrice": " 5 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF587629-01-01-01.mp3"
+                },
+                {
+                    "id": "11",
+                    "img": "img/marschm.jpg",
+                    "productName": "MARSCHMELLOWS",
+                    "title": "Soulpower",
+                    "recordLabel": "Label: INFRACom!",
+                    "productCondition": "Condition: Good",
+                    "productPrice": " 2 eur",
+                    "link": "https://www.discogs.com/Marschmellows-Soulpower/release/152993"
                 },
                 {
                     "id": "15",
                     "img": "img/LayFar.jpg",
-                    "productName": "LAY-FAR - Never Good Enough",
+                    "productName": "LAY-FAR",
+                    "title": "Never Good Enough",
                     "recordLabel": "Label: In-Beat-Ween Music",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 5",
+                    "productPrice": " 4 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF675398-01-01-01.mp3"
+                },
+                {
+                    "id": "11",
+                    "img": "img/PATProphets.jpg",
+                    "productName": "PAT LEZIZMO FT. CAHO",
+                    "title": "Prophets And Sages",
+                    "recordLabel": "Label: Muzik & Friendz Records",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 3 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF607422-01-01-01.mp3"
+                },
+                {
+                    "id": "11",
+                    "img": "img/VarShape.jpg",
+                    "productName": "VARIOUS",
+                    "title": "The Shape Of Things To Come",
+                    "recordLabel": "Label: People",
+                    "productCondition": "Condition: Very Good +",
+                    "productPrice": " 5 eur",
+                    "link": "https://www.discogs.com/Various-The-Shape-Of-Things-To-Come/release/179967"
+                },
+                {
+                    "id": "11",
+                    "img": "img/JazzHuman.jpg",
+                    "productName": "JAZZANOVA",
+                    "title": "I Human (Mike Huckaby Remixes)",
+                    "recordLabel": "Label: Sonar Kollektiv",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 7 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF453545-01-01-01.mp3"
+                },
+                {
+                    "id": "11",
+                    "img": "img/truby.jpg",
+                    "productName": "TRÜBY TRIO",
+                    "title": "High Jazz (Freeform Five Remixes)",
+                    "recordLabel": "Label: Compost",
+                    "productCondition": "Condition: Very Good",
+                    "productPrice": " 3 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF110143-01-01-01.mp3"
+                },
+                {
+                    "id": "17",
+                    "img": "img/Leonid.jpg",
+                    "productName": "LEONID",
+                    "title": "Radar EP",
+                    "recordLabel": "Label: Dolly",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 5 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF499286-01-01-01.mp3"
                 },
                 {
                     "id": "16",
                     "img": "img/RosasNievas.jpg",
-                    "productName": "ROSAS NIEVAS - Going Away Soon",
+                    "productName": "ROSAS NIEVAS",
+                    "title": "Going Away Soon",
                     "recordLabel": "Label: Scissor and Thread",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 5",
+                    "productPrice": " 5 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF607008-01-01-01.mp3"
+                },
+                {
+                    "id": "17",
+                    "img": "img/alexkid.jpg",
+                    "productName": "ALEXKID",
+                    "title": "Castlesmadeofsand EP",
+                    "recordLabel": "Label: F Communications",
+                    "productCondition": "Condition: Very Good",
+                    "productPrice": " 2 eur",
+                    "link": "https://www.discogs.com/Alexkid-Castlesmadeofsand/release/18649"
+                },
+                {
+                    "id": "32",
+                    "img": "img/mrg.jpg",
+                    "productName": " MR G",
+                    "title": "Atmosphere EP",
+                    "recordLabel": "Label: Careless",
+                    "productCondition": "Condition: Good +",
+                    "productPrice": " 10 eur",
+                    "link": "https://www.discogs.com/Mr-G-Atmosphere-EP/release/1026077"
                 }
             ]
         },
@@ -161,137 +488,204 @@
             "genreData": [{
                     "id": "17",
                     "img": "img/40thieves.jpg",
-                    "productName": "40 THIEVES - Don't Turn It Off",
-                    "recordLabel": "Label: Permanent Vacation Germany",
+                    "productName": "40 THIEVES",
+                    "title": "Don't Turn It Off",
+                    "recordLabel": "Label: Permanent Vacation",
                     "productCondition": "Condition: Very Good +",
-                    "productPrice": " 22",
+                    "productPrice": " 18 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF307546-01-01-01.mp3"
                 },
                 {
-                    "id": "19",
-                    "img": "img/sessionv.jpg",
-                    "productName": "SESSION VICTIM - Left The Building",
-                    "recordLabel": "Label: Delusions Of Grandeur",
-                    "productCondition": "Condition: Very Good +",
-                    "productPrice": " 4",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF380454-01-01-01.mp3"
+                    "id": "32",
+                    "img": "img/AN2.jpg",
+                    "productName": "AN-2",
+                    "title": "Wide Open",
+                    "recordLabel": "Label: Theomatic",
+                    "productCondition": "Condition: Good +",
+                    "productPrice": " 20 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF292255-01-01-01.mp3"
+                },
+                {
+                    "id": "32",
+                    "img": "img/CoeoDisco.jpg",
+                    "productName": "COEO",
+                    "title": "Disco Volante EP",
+                    "recordLabel": "Label: Razor N Tape Reserve",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 9 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF632664-01-01-01.mp3"
+                },
+                {
+                    "id": "32",
+                    "img": "img/ToddT.jpg",
+                    "productName": "TODD TERJE",
+                    "title": "Snooze 4 Love (Remixes)",
+                    "recordLabel": "Label: Olsen",
+                    "productCondition": "Condition: Very Good",
+                    "productPrice": " 5 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF616926-01-01-01.mp3"
                 },
                 {
                     "id": "20",
                     "img": "img/jacquesr.jpg",
-                    "productName": "JACQUES RENAULT - Edits",
+                    "productName": "JACQUES RENAULT",
+                    "title": "Edits",
                     "recordLabel": "Label: Razor-N-Tape",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 7",
+                    "productPrice": " 7 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF660843-01-01-01.mp3"
-                },
-                {
-                    "id": "22",
-                    "img": "img/farout.jpg",
-                    "productName": "FAR OUT MONSTER DISCO ORCHESTRA - Step Into My Life",
-                    "recordLabel": "Label: Far Out",
-                    "productCondition": "Condition: Near Mint",
-                    "productPrice": " 8",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF689741-01-01-01.mp3"
                 },
                 {
                     "id": "23",
                     "img": "img/hotmood.jpg",
-                    "productName": "HOTMOOD - Disco De Los Muertos EP",
+                    "productName": "HOTMOOD",
+                    "title": "Disco De Los Muertos EP",
                     "recordLabel": "Label: Whiskey Disco",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 6",
+                    "productPrice": " 7 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF668366-01-01-01.mp3"
                 },
                 {
                     "id": "24",
                     "img": "img/codycurrie.jpg",
-                    "productName": "CODY CURRIE - Beer Machine EP",
+                    "productName": "CODY CURRIE",
+                    "title": "Beer Machine EP",
                     "recordLabel": "Label: Better Listen Records",
-                    "productCondition": "Condition: Mint",
-                    "productPrice": " 6",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 7 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF639697-01-01-01.mp3"
                 },
                 {
                     "id": "25",
                     "img": "img/chezus.jpg",
-                    "productName": "CHEZUS - Special (White Label)",
+                    "productName": "CHEZUS",
+                    "title": "Special (White Label)",
                     "recordLabel": "Label: Beer",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 7",
+                    "productPrice": " 7 eur",
                     "link": "https://www.juno.co.uk/miniflashplayer/SF673820-01-01-01.mp3"
+                },
+                {
+                    "id": "22",
+                    "img": "img/farout.jpg",
+                    "productName": "FAR OUT MONSTER DISCO ORCHESTRA",
+                    "title": "Step Into My Life",
+                    "recordLabel": "Label: Far Out",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 8 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF689741-01-01-01.mp3"
+                },
+                {
+                    "id": "19",
+                    "img": "img/sessionv.jpg",
+                    "productName": "SESSION VICTIM",
+                    "title": "Left The Building",
+                    "recordLabel": "Label: Delusions Of Grandeur",
+                    "productCondition": "Condition: Very Good +",
+                    "productPrice": " 3 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF380454-01-01-01.mp3"
                 },
                 {
                     "id": "26",
                     "img": "img/marcromboy.jpg",
-                    "productName": "MARC ROMBOY & BLAKE BAXTER - The Art Of Sound 10",
+                    "productName": "MARC ROMBOY & BLAKE BAXTER",
+                    "title": "The Art Of Sound 10",
                     "recordLabel": "Label: Systematic",
                     "productCondition": "Condition: Near Mint",
-                    "productPrice": " 7",
+                    "productPrice": " 7 eur",
                     "link": "https://www.decks.de/track/marc_romboy_blake_baxter-the_art_of_sound/c03-73"
                 },
                 {
                     "id": "27",
                     "img": "img/mariusvareid.jpg",
-                    "productName": "MARIUS VAREID - Skumle Planer / Tropisk Storm (Promo White Label)",
+                    "productName": "MARIUS VAREID",
+                    "title": "Skumle Planer / Tropisk Storm (Promo White Label)",
                     "recordLabel": "Label: Full Pupp",
                     "productCondition": "Condition: Good +",
-                    "productPrice": " 2",
+                    "productPrice": " 2 eur",
                     "link": "https://www.beatport.com/release/skumle-planer/148562"
                 },
                 {
                     "id": "29",
-                    "img": "img/divine600.jpg",
-                    "productName": "UNKNOWN - Divine Edits",
-                    "recordLabel": "Label: Creative Use",
+                    "img": "img/DirtyJesus.jpg",
+                    "productName": "DIRTY JESUS",
+                    "title": "Don't Fuck With My Shit (Pete Herbert Remixes / Original Mix)",
+                    "recordLabel": "Label: Juno Records",
                     "productCondition": "Condition: Very Good +",
-                    "productPrice": " 10",
-                    "link": "https://www.juno.co.uk/miniflashplayer/SF286323-01-01-01.mp3"
-                }
-            ]
-        },
-        {
-            "genreName": "Various",
-            "genreData": [{
-                    "id": "32",
-                    "img": "img/mrg.jpg",
-                    "productName": " MR G – Atmosphere EP ",
-                    "recordLabel": "Label: Careless",
-                    "productCondition": "Condition: Good +",
-                    "productPrice": " 12",
-                    "link": "https://www.discogs.com/Mr-G-Atmosphere-EP/release/1026077"
+                    "productPrice": " 5 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF378830-01-01-01.mp3"
                 },
                 {
-                    "id": "33",
-                    "img": "img/breekout.jpg",
-                    "productName": "THE BREEKOUT KREW - Matt's Mood",
-                    "recordLabel": "Label: London Records",
+                    "id": "29",
+                    "img": "img/FuckReal.jpg",
+                    "productName": "FRANTZVAAG",
+                    "title": "Fuck Reality 03",
+                    "recordLabel": "Label: Fuck Reality",
+                    "productCondition": "Condition: Good +",
+                    "productPrice": " 3 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF617680-01-01-01.mp3"
+                },
+                {
+                    "id": "29",
+                    "img": "img/CrazyLie.jpg",
+                    "productName": "CRAZY P",
+                    "title": "Lie Lost (Remixes)",
+                    "recordLabel": "Label: 2020 Vision",
+                    "productCondition": "Condition: Near Mint",
+                    "productPrice": " 4 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF326250-01-01-01.mp3"
+                },
+                {
+                    "id": "29",
+                    "img": "img/JuniorB.jpg",
+                    "productName": "JUNIOR BOYS",
+                    "title": "Body Language Six (2LP)",
+                    "recordLabel": "Label: Get Physical Music",
+                    "productCondition": "Condition: Good +",
+                    "productPrice": " 6 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF300103-01-01-01.mp3"
+                },
+                {
+                    "id": "29",
+                    "img": "img/Magnus.jpg",
+                    "productName": "MAGNUS INTERNATIONAL",
+                    "title": "Kosmetisk",
+                    "recordLabel": "Label: Full Pupp",
+                    "productCondition": "Condition: Very Good",
+                    "productPrice": " 3 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF241970-01-01-01.mp3"
+                },
+                {
+                    "id": "29",
+                    "img": "img/GregWil.jpg",
+                    "productName": "VARIOUS",
+                    "title": "Greg Wilson's 2020 Vision",
+                    "recordLabel": "Label: 20:20 Vision",
+                    "productCondition": "Condition: Good +",
+                    "productPrice": " 4 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF317434-01-01-01.mp3"
+                },
+                {
+                    "id": "29",
+                    "img": "img/divine600.jpg",
+                    "productName": "UNKNOWN",
+                    "title": "Divine Edits",
+                    "recordLabel": "Label: Creative Use",
                     "productCondition": "Condition: Very Good +",
-                    "productPrice": " 1",
-                    "link": "https://www.discogs.com/The-Breekout-Krew-Matts-Mood/release/122233"
+                    "productPrice": " 10 eur",
+                    "link": "https://www.juno.co.uk/miniflashplayer/SF286323-01-01-01.mp3"
                 },
                 {
                     "id": "34",
                     "img": "img/annie.jpg",
-                    "productName": "ANNIE LENNOX - Songs Of Mass Destruction",
+                    "productName": "ANNIE LENNOX",
+                    "title": "Songs Of Mass Destruction",
                     "recordLabel": "Label: Sony BMG",
                     "productCondition": "Condition: Very Good +",
-                    "productPrice": " 50",
+                    "productPrice": " 60 eur",
                     "link": "https://open.spotify.com/album/4rXKn4J6piRlh9JieKzgtI?autoplay=true&v=L"
                 }
             ]
-        },
-        {
-            "genreName": "Dubtechno",
-            "genreData": [{
-                "id": "35",
-                "img": "img/AndreyPushkarev.jpg",
-                "productName": "ANDREY PUSHKAREV - Photograph",
-                "recordLabel": "Label: Luck of Access",
-                "productCondition": "Condition: Mint",
-                "productPrice": " 20",
-                "link": "https://www.juno.co.uk/miniflashplayer/SF661597-01-01-01.mp3"
-            }]
         }
     ]
 }

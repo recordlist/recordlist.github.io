@@ -29,28 +29,16 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Records For Sale</a>
+      <a class="navbar-brand" href="#">House And Disco Records</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <div class="my-2 my-lg-0">
-          <input type="search" id="container-search" value="" class="form-control" placeholder="Search...">
+          <input type="search" id="container-search" value="" class="form-control" placeholder="search">
         </div>
         <ul class="navbar-nav ml-auto" style="margin-right: 50px;">
-          <li class="nav-item">
-            <b><a class="nav-link" href="#House">HOUSE</a></b>
-          </li>
-          <li class="nav-item">
-            <b><a class="nav-link" href="#Disco">DISCO</a></b>
-          </li>
-          <li class="nav-item">
-            <b><a class="nav-link" href="#Various">VARIOUS</a></b>
-          </li>
-          <li class="nav-item">
-            <b><a class="nav-link" href="#Dubtechno">DUBTECHNO</a></b>
-          </li>
         </ul>
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#shopingCart">Cart <i
             class="fas fa-shopping-cart fa-lg"><span class="badge badgeItemCount"></span></i></button>
@@ -61,27 +49,18 @@
   <!-- Page Content -->
   <div class="container" id="searchable-container">
     <!-- Page Heading -->
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h6 class="my-4"><b>All records are shipped from Germany with tracking and insurance.</b></h6>
-        <h6 class="my-4">Records shipped within GERMANY: 1 to 30 records = 5€. Records shipped to EU: 1 to 30 records = 14€</h6>
-        <h6 class="my-4"><b>All payments via PayPal or Bank transfer. Discounts applicable.</b></h6>
-      </div>
-    </div>
-    <div class="col-md-12 text-center" id="cardTest">
-    </div>
-
+    <div class="col-md-12 text-center" id="cardTest"></div>
   </div>
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; recordlist.github.io 2020</p>
-      <p class="m-0 text-center"><a class="text-white" href="/TermsAndConditions.html" target="_blank">Terms &
+      <p class="m-0 text-center text-secondary">Copyright &copy; recordlist.github.io 2020</p>
+      <p class="m-0 text-center"><a class="text-secondary" href="/TermsAndConditions.html" target="_blank">Terms &
           Conditions</a></p>
-      <p class="m-0 text-center"><a class="text-white" href="/PrivacyPolicy.html" target="_blank">Privacy Policy</a>
+      <p class="m-0 text-center"><a class="text-secondary" href="/PrivacyPolicy.html" target="_blank">Privacy Policy</a>
       </p>
-      <p class="m-0 text-center"><a class="text-white" href="#">Back to top</a></p>
+      <p class="m-0 text-center"><a class="text-secondary" href="#">Back to top</a></p>
     </div>
     <!-- /.container -->
   </footer>
@@ -107,6 +86,7 @@
           <!--Body-->
           <div class="modal-body">
             <table id="cartTable" class="table table-hover">
+              <h6 class="modal-body">Records are shipped from Germany with tracking and insurance. Shipping in DE: 1 to 30 records = 5€. Shipping to EU: 1 to 30 records = 14€</h6>
               <thead>
                 <tr>
                   <th>#</th>
@@ -163,7 +143,7 @@
                     <label class="red text-center" id="noneValidEmail"></label>
                   </td>
                 </tr>
-              </tfoot>
+              </tfoot> 
             </table>
           </div>
           <input id="message" type="hidden" name="message" placeholder="Test Message" />
