@@ -29,6 +29,7 @@ function loadData(cardsData) {
       let id = cardsData.root[x].genreData[y].id;
       let img = cardsData.root[x].genreData[y].img;
       let productName = cardsData.root[x].genreData[y].productName;
+      let title = cardsData.root[x].genreData[y].title;
       let recordLabel = cardsData.root[x].genreData[y].recordLabel;
       let productCondition = cardsData.root[x].genreData[y].productCondition;
       let productPrice = cardsData.root[x].genreData[y].productPrice;
