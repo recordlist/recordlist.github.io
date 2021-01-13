@@ -1,3 +1,17 @@
+body {
+
+    padding-top: 56px;
+    
+    }
+    
+    
+    
+    .fa-shopping-cart {
+    
+    color: #f8f9fa;
+    
+    }
+
 
 .itemShippingImg {
     border-top-left-radius: calc(.25rem - 1px);
