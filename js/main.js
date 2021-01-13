@@ -24,12 +24,11 @@ function loadData(cardsData) {
   let cardsDataMarkup = '';
 
   for (x in cardsData.root) {
-    cardsDataMarkup += '<h3 class="my-4" id="' + cardsData.root[x].genreName + '">' + cardsData.root[x].genreName.toUpperCase() + '</h3>'
+    cardsDataMarkup += '<h2 class="my-4" id="' + cardsData.root[x].genreName + '">' + cardsData.root[x].genreName.toUpperCase() + '</h2>'
     for (y in cardsData.root[x].genreData) {
       let id = cardsData.root[x].genreData[y].id;
       let img = cardsData.root[x].genreData[y].img;
       let productName = cardsData.root[x].genreData[y].productName;
-      let title = cardsData.root[x].genreData[y].title;
       let recordLabel = cardsData.root[x].genreData[y].recordLabel;
       let productCondition = cardsData.root[x].genreData[y].productCondition;
       let productPrice = cardsData.root[x].genreData[y].productPrice;
@@ -47,14 +46,13 @@ function loadData(cardsData) {
         ' <img class="card-img-top" src="' + img + '" alt="">' +
         '  <div class="card-body">' +
         '   <h6 class="card-title productName">' + productName + '</h6>' +
-        '   <h6 class="card-title title">' + title + '</h6>' +
         '   <p class="card-title recordLabel">' + recordLabel + '<p>' +
         '   <p class="productCondition card-text">' + productCondition + '</p>' +
         ' </div>' +
         ' <div class="card-footer text-center">' +
-        '   <h6 class="productPrice">' + productPrice + '</h6>' +
+        '   <h6 class="productPrice"><i class="fas fa-euro-sign"></i>' + productPrice + '</h6>' +
         '   <a class="btn btn-warning" href="' + link + '"' +
-        '     target="_blank"></i>Listen</a>' +
+        '     target="_blank"><i class="fas fa-headphones"></i> Listen</a>' +
         '   <button type="button" class="btn btn-success addToCart">Add to Cart</button>' +
         ' </div>' +
         '</div>' +
