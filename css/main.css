@@ -24,7 +24,7 @@
 /* Navbar Text Search */
 
 .form-control {
-    filter: grayscale(100%);
+    filter: grayscale(100%) !important;
 }
 
 /* Navbar Mobile Toggler Cart */
@@ -46,7 +46,7 @@
 /* Navbar Cart Button */
 
 .btn-primary {
-    filter: grayscale(100%);
+    filter: grayscale(100%) !important;
     font-family: Avenir !important;
     width: 120px;
     margin-right: 14px;
@@ -72,6 +72,7 @@
 /* Button Close Inside Cart */
 
 .btn-outline-primary {
+    border-color: #666667 !important;
     filter: grayscale(100%) !important;
     font-family: Avenir !important;
 }
