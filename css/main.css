@@ -72,7 +72,7 @@
 /* Button Close Inside Cart */
 
 .btn-outline-primary {
-    filter: grayscale(100%);
+    filter: grayscale(100%) !important;
     font-family: Avenir !important;
 }
 
