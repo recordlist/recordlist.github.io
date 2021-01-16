@@ -33,6 +33,7 @@
     border: none;
     margin-right: 5px;
     color: #666667 !important;
+    filter: grayscale(100%);
     
 }
 
