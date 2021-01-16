@@ -52,9 +52,9 @@ function loadData(cardsData) {
         '   <p class="productCondition card-text">' + productCondition + '</p>' +
         ' </div>' +
         ' <div class="card-footer text-center">' +
-        '   <h6 class="productPrice"><i class="fas fa-euro-sign"></i>' + productPrice + '</h6>' +
+        '   <h6 class="productPrice">' + productPrice + '</h6>' +
         '   <a class="btn btn-warning" href="' + link + '"' +
-        '     target="_blank"><i class="fas fa-headphones"></i> Listen</a>' +
+        '     target="_blank">Listen</a>' +
         '   <button type="button" class="btn btn-success addToCart">Add to Cart</button>' +
         ' </div>' +
         '</div>' +
@@ -310,23 +310,23 @@ function getRadioValue() {
 
 function shipping(itemCount, countryTariff) {
   var shippingArray;
-  if (countryTariff === 'DE') {
+  if (countryTariff === 'EU') {
     if (itemCount > 0 && itemCount <= 30) {
-      shippingArray = [5, 'Shipping 1 to 30 x 12" in DE'];
+      shippingArray = [14, 'Shipping to EU'];
+    } else if (itemCount > 30 && itemCount <= 80) {
+      shippingArray = [19, 'Shipping 31 to 80 x 12 " to EU'];
+    } else if (itemCount > 80) {
+      shippingArray = [0, 'Shipping 80 and more x 12 to EU", individual pricing'];
+    } else {
+      shippingArray = [0, ''];
+    }
+  } else if (countryTariff === 'DE') {
+    if (itemCount > 0 && itemCount <= 30) {
+      shippingArray = [5, 'Shipping in DE'];
     } else if (itemCount > 30 && itemCount <= 80) {
       shippingArray = [6, 'Shipping 31 to 80 x 12" in DE'];
     } else if (itemCount > 80) {
       shippingArray = [0, 'Shipping 80 and more x 12 in DE", individual pricing'];
-    } else {
-      shippingArray = [0, ''];
-    }
-  } else if (countryTariff === 'EU') {
-    if (itemCount > 0 && itemCount <= 30) {
-      shippingArray = [14, 'Shipping 1 to 30 x 12" in EU'];
-    } else if (itemCount > 30 && itemCount <= 80) {
-      shippingArray = [19, 'Shipping 31 to 80 x 12 " in EU'];
-    } else if (itemCount > 80) {
-      shippingArray = [0, 'Shipping 80 and more x 12 in EU", individual pricing'];
     } else {
       shippingArray = [0, ''];
     }
