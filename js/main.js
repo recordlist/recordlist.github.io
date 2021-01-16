@@ -49,7 +49,7 @@ function loadData(cardsData) {
         '   <h6 class="card-title productName">' + productName + '</h6>' +
         '   <h6 class="card-title title">' + title + '</h6>' +
         '   <p class="card-title recordLabel">' + recordLabel + '<p>' +
-        '   <p class="productCondition card-text">' + productCondition + '<p>' +
+        '   <p class="card-title productCondition">' + productCondition + '<p>' +
         ' </div>' +
         ' <div class="card-footer text-center">' +
         '   <h6 class="productPrice">' + productPrice + '</h6>' +
