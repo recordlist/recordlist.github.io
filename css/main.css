@@ -73,6 +73,7 @@
 
 .btn-outline-primary {
     border-color: #666667 !important;
+    color: #666667 !important;
     filter: grayscale(100%) !important;
     font-family: Avenir !important;
 }
