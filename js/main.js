@@ -312,7 +312,7 @@ function shipping(itemCount, countryTariff) {
   var shippingArray;
   if (countryTariff === 'DE') {
     if (itemCount > 0 && itemCount <= 30) {
-      shippingArray = [5, 'Shipping 1 to 30 x 12" in DE'];
+      shippingArray = [5, 'Shipping in DE'];
     } else if (itemCount > 30 && itemCount <= 80) {
       shippingArray = [6, 'Shipping 31 to 80 x 12" in DE'];
     } else if (itemCount > 80) {
@@ -322,11 +322,11 @@ function shipping(itemCount, countryTariff) {
     }
   } else if (countryTariff === 'EU') {
     if (itemCount > 0 && itemCount <= 30) {
-      shippingArray = [14, 'Shipping 1 to 30 x 12" in EU'];
+      shippingArray = [14, 'Shipping to EU'];
     } else if (itemCount > 30 && itemCount <= 80) {
-      shippingArray = [19, 'Shipping 31 to 80 x 12 " in EU'];
+      shippingArray = [19, 'Shipping 31 to 80 x 12 " to EU'];
     } else if (itemCount > 80) {
-      shippingArray = [0, 'Shipping 80 and more x 12 in EU", individual pricing'];
+      shippingArray = [0, 'Shipping 80 and more x 12 to EU", individual pricing'];
     } else {
       shippingArray = [0, ''];
     }
