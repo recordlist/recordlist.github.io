@@ -73,6 +73,7 @@
 
 .btn-outline-primary {
     border-color: #666667 !important;
+    color: #666667 !important;
     filter: grayscale(100%) !important;
     font-family: Avenir !important;
 }
@@ -122,7 +123,7 @@ body {
 }
 
 .card-footer {
-    margin-top: -20px;
+    margin-top: -20px !important;
     border: none;
     border-radius: 0px 0px 10px 10px !important;
     background-color: #ddd;
