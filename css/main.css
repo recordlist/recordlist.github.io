@@ -62,24 +62,27 @@ body {
     box-shadow: none !important;
 }
 
-/* Button Card Listen */
+/* Button Card Listen Logo */
 
 .btn-warning {
-    font-family: Avenir !important;
-}
+    color: #333333 !important;
+    width: 75px;
+    height: 35px;
+}   
 
-/* Button Card Add to Cart Text */
+/* Button Card Add to Cart Shopping Car Logo */
 
 .btn-success {
-    color: #fafafa !important;
-    font-family: Avenir !important;
+    color: #333333 !important;
+    width: 75px;
+    height: 35px;
 }
 
 /* Button Close Inside Cart */
 
 .btn-outline-primary {
     border-color: #666667 !important;
-    color: #666667;
+    color: #666667 !important;
     filter: grayscale(100%) !important;
     font-family: Avenir !important;
 }
@@ -87,9 +90,11 @@ body {
 /* Button Send Order Inside Cart */
 
 .sendOrder {
-    border-color: #666667;
-    background-color: #666667;
-    color: #fafafa;
+    height: 38px;
+    width: 110px;
+    border-color: #666667 !important;
+    background-color: #666667 !important;
+    color: #ddd !important;
 }
 
 /* CARDS */

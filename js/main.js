@@ -54,8 +54,8 @@ function loadData(cardsData) {
         ' <div class="card-footer text-center">' +
         '   <h6 class="productPrice">' + productPrice + '</h6>' +
         '   <a class="btn btn-warning" href="' + link + '"' +
-        '     target="_blank"></i>Listen</a>' +
-        '   <button type="button" class="btn btn-success addToCart">Add to Cart</button>' +
+        '     target="_blank"></i><i class="fas fa-headphones"></i></a>' +
+        '   <button type="button" class="btn btn-success addToCart"><span class="fas fa-shopping-cart"></span></button>' +
         ' </div>' +
         '</div>' +
         '</div>'
