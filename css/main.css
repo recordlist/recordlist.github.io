@@ -27,12 +27,13 @@
     filter: grayscale(100%);
 }
 
-/* Navbar Toggler */
+/* Navbar Mobile Toggler Cart */
 
 .navbar-toggler {
     margin-right: 14px;
     border-color: #666667;
     color: #666667 !important;
+    box-shadow: none !important;
     
 }
 
@@ -52,6 +53,7 @@
     border-color: #666667;
     background-color: #1e1e1e;
     color: #666667;
+    box-shadow: none !important;
 }
 
 /* Button Card Listen */
