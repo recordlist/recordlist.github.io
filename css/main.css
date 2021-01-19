@@ -168,7 +168,7 @@ body {
     color: #666667 !important;
 }
 .pp {
-    font-family: Avenir;
+    font-family: Avenir !important;
     margin-top: 30px;
     color: #666667;
 }
