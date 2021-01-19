@@ -169,6 +169,12 @@ body {
 }
 
 
+
+.pp {
+    margin-top: 30px;
+    color: #666667;
+}
+
 .itemShippingImg {
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px);
