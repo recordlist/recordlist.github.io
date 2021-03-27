@@ -31,6 +31,7 @@ function loadData(cardsData) {
       let productName = cardsData.root[x].genreData[y].productName;
       let title = cardsData.root[x].genreData[y].title;
       let recordLabel = cardsData.root[x].genreData[y].recordLabel;
+      let released = cardsData.root[x].genreData[y].released;
       let productCondition = cardsData.root[x].genreData[y].productCondition;
       let productPrice = cardsData.root[x].genreData[y].productPrice;
       let link = cardsData.root[x].genreData[y].link;
