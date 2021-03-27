@@ -15,15 +15,17 @@ body {
 
 .navbar-brand {
     font-family: Avenir !important;
+    font-size: 18px !important;
+    margin-top: 1.2px !important;
     margin-left: 14px !important;
-    color: #666667 !important;
+    color: #747474 !important;
 }
 
 /* Navbar Search */
 
 #container-search {
     background-color: #1e1e1e;
-    border-color: #666667;
+    border-color: #747474;
     border-radius: 9px;
 }
 
@@ -31,16 +33,16 @@ body {
 
 .form-control {
     filter: grayscale(100%) !important;
+    color: #747474 !important;
 }
 
 /* Navbar Mobile Toggler Cart */
 
 .navbar-toggler {
-    margin-right: 14px;
-    border-color: #666667;
-    color: #666667 !important;
+    margin-right: 5px;
+    border: none;
+    color: #747474 !important;
     outline: none !important;
-    
 }
 
 /* BUTTONS */
@@ -56,9 +58,9 @@ body {
     font-family: Avenir !important;
     width: 120px;
     margin-right: 14px;
-    border-color: #666667;
+    border-color: #747474;
     background-color: #1e1e1e;
-    color: #666667;
+    color: #747474;
     box-shadow: none !important;
 }
 
@@ -66,35 +68,24 @@ body {
 
 .btn-warning {
     color: #333333 !important;
-    width: 75px;
+    width: 50px;
     height: 35px;
-}   
+}
+
+/* Button Card Info Logo */
+
+.btn-info {
+    color: #333333 !important;
+    width:50px;
+    height: 35px;
+}
 
 /* Button Card Add to Cart Shopping Car Logo */
 
 .btn-success {
     color: #333333 !important;
-    width: 75px;
+    width: 50px;
     height: 35px;
-}
-
-/* Button Close Inside Cart */
-
-.btn-outline-primary {
-    border-color: #666667 !important;
-    color: #666667;
-    filter: grayscale(100%) !important;
-    font-family: Avenir !important;
-}
-
-/* Button Send Order Inside Cart */
-
-.sendOrder {
-    height: 38px;
-    width: 110px;
-    border-color: #666667 !important;
-    background-color: #666667 !important;
-    color: #ddd !important;
 }
 
 /* CARDS */
@@ -113,13 +104,13 @@ body {
     background-color: #ddd;
 }
 
+.card-title {
+    font-family: Avenir !important;
+}
+
 .productCondition,
 .card-text {
     margin-top: -15px;
-}
-
-.card-title {
-    font-family: Avenir !important;
 }
 
 .productPrice {
@@ -133,6 +124,10 @@ body {
     background-color: #ddd;
 }
 
+.btn-info {
+    filter: grayscale(100%);
+}
+
 /* Text HOUSE */
 
 #House {
@@ -142,19 +137,45 @@ body {
 /* Text DISCO */
 
 .my-4 {
-    color: #666667;
+    color: #747474;
 }
 
 /* CART */
 
+/* Your Cart Text */
+
+#myModalLabel {
+    margin-left: 30px;
+    font-size: 25px;
+}
+
 .modal-content {
+    font-size: 13.5px;
     border-radius: 10px;
+    border-color: #ddd;
     background-color: #ddd;
 }
 
 .modal-header,
-.modal-body {
+.modal-content,
+.modal-body,
+.modal-footer {
     border: none;
+}
+
+/* Button Close Inside Cart */
+
+.btn-outline-primary {
+    font-family: Avenir !important;
+}
+
+/* Button Send Order Inside Cart */
+
+.sendOrder {
+    margin-right: 18px;
+    height: 38px;
+    width: 110px;
+    color: #f9f9f9 !important;
 }
 
 /* FOOTER */
@@ -165,12 +186,12 @@ body {
 
 .text-secondary {
     font-family: Avenir !important;
-    color: #666667 !important;
+    color: #747474 !important;
 }
 .pp {
     font-family: Avenir !important;
     margin-top: 30px;
-    color: #666667;
+    color: #747474;
 }
 
 .itemShippingImg {

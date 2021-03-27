@@ -31,10 +31,10 @@ function loadData(cardsData) {
       let productName = cardsData.root[x].genreData[y].productName;
       let title = cardsData.root[x].genreData[y].title;
       let recordLabel = cardsData.root[x].genreData[y].recordLabel;
-      let released = cardsData.root[x].genreData[y].released;
       let productCondition = cardsData.root[x].genreData[y].productCondition;
       let productPrice = cardsData.root[x].genreData[y].productPrice;
       let link = cardsData.root[x].genreData[y].link;
+      let linkD = cardsData.root[x].genreData[y].linkD;
 
       if (y == 0) {
         cardsDataMarkup += '<div class="row">';
@@ -49,13 +49,15 @@ function loadData(cardsData) {
         '  <div class="card-body">' +
         '   <h6 class="card-title productName">' + productName + '</h6>' +
         '   <h6 class="card-title title">' + title + '</h6>' +
-        '   <p class="card-title recordLabel">' + recordLabel + '<p>' +
+        '   <p class="card-title recordLabel">' + recordLabel + '</p>' +
         '   <p class="card-title productCondition">' + productCondition + '</p>' +
         ' </div>' +
         ' <div class="card-footer text-center">' +
         '   <h6 class="productPrice">' + productPrice + '</h6>' +
         '   <a class="btn btn-warning" href="' + link + '"' +
         '     target="_blank"></i><i class="fas fa-headphones"></i></a>' +
+        '   <a class="btn btn-info" href="' + linkD + '"' +
+        '     target="_blank"></i><i class="fas fa-info"></i></a>' +
         '   <button type="button" class="btn btn-success addToCart"><span class="fas fa-shopping-cart"></span></button>' +
         ' </div>' +
         '</div>' +
