@@ -66,10 +66,6 @@ body {
 
 /* CARDS */
 
-mb-4 {
-    max-width: 210px;
-}
-
 .card {
     background-color: #ddd;
     border: none;
