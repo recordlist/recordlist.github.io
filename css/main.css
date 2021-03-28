@@ -15,9 +15,9 @@ body {
 
 .navbar-brand {
     font-family: Avenir !important;
-    font-size: 18px !important;
-    margin-top: 1.2px !important;
-    margin-left: 14px !important;
+    font-size: 18px;
+    margin-top: 1.2px;
+    margin-left: 14px;
     color: #747474 !important;
 }
 
@@ -32,7 +32,7 @@ body {
 /* Navbar Text Search */
 
 .form-control {
-    filter: grayscale(100%) !important;
+    filter: grayscale(100%);
     color: #747474 !important;
 }
 
@@ -54,7 +54,7 @@ body {
 /* Navbar Cart Button */
 
 .btn-primary {
-    filter: grayscale(100%) !important;
+    filter: grayscale(100%);
     font-family: Avenir !important;
     width: 120px;
     margin-right: 14px;
@@ -62,30 +62,6 @@ body {
     background-color: #1e1e1e;
     color: #747474;
     box-shadow: none !important;
-}
-
-/* Button Card Listen Logo */
-
-.btn-warning {
-    color: #333333 !important;
-    width: 50px;
-    height: 35px;
-}
-
-/* Button Card Info Logo */
-
-.btn-info {
-    color: #333333 !important;
-    width:50px;
-    height: 35px;
-}
-
-/* Button Card Add to Cart Shopping Car Logo */
-
-.btn-success {
-    color: #333333 !important;
-    width: 50px;
-    height: 35px;
 }
 
 /* CARDS */
@@ -124,8 +100,29 @@ body {
     background-color: #ddd;
 }
 
+/* Button Card Listen Logo */
+
+.btn-warning {
+    color: #333333 !important;
+    width: 50px;
+    height: 35px;
+}
+
+/* Button Card Info Logo */
+
 .btn-info {
     filter: grayscale(100%);
+    color: #222222 !important;
+    width:50px;
+    height: 35px;
+}
+
+/* Button Card Add to Cart Shopping Car Logo */
+
+.btn-success {
+    color: #333333 !important;
+    width: 50px;
+    height: 35px;
 }
 
 /* Text HOUSE */
